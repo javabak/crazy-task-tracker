@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/crazy-task-tracker
+    password: Alimnikas299
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+logging:
+  level:
+    org.springframework: INFO
+    sql: info
+    web: info
